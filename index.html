@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Weber | Meu Portfólio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+                <nav>
+                    <div class="link">
+                        <ul>
+                            <li>
+                            <a href="#apresentacao" title="Ir para apresentação">Apresentação</a>
+                            </li>
+                            <li>
+                            <a href="#abilities" title="Ir para conhecimentos">Habilidades</a>
+                            </li>
+                            <li>
+                            <a href="#projects" title="Ir para projetos">Projetos</a>
+                            </li>                    
+                        </ul>                                               
+                    </div>
+                </nav>            
+                <a href="#contact"><button class="bttn_general" title="Contato via Whatsapp">Contato</button></a>
+        </div>
+    </header>    
+    <section>
+        <div class="container">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <div class="main_welcome">
+                <h2><span>Seja bem vindo ao meu portfólio,<span></span></h2>
+            <p>
+                Explore meu portfólio e entre em contato para discutir como posso ajudar a tornar sua visão uma realidade.
+            </p>
+            <a href="#contact"><button class="bttn_general" title="Ir para contato">Vamos começar!</button></a>
+            </div>
+            <img class="dev_imagem" src="./imagens/image_dev.png" />
+        </div>
+    </section>
+    <section>
+        <article id="apresentacao">
+            <div class="container">
+                <img class="circle" src="./imagens/foto_perfil.jpg" />
+                <div class="apresentacao">
+                    <h2>Olá! Eu sou o <span>Arthur</span>, desenvolvedor front-end</h2>
+                <p>
+                    amante de jogos, música e <span>programação</span>. Estudante na EBAC, cada projeto meu reflete minha dedicação em transformar ideias em realidade. Estou pronto para colaborar e criar algo extraordinário junto com você.
+                </p>
+                </div>            
+            </div>
+        </article>        
+    </section>
+    <section>
+        <article id="abilities">
+            <h2>HABILIDADES</h2>            
+                <div class="container">
+                    <div class="features">
+                        <div class="cards">                       
+                                <img src="./imagens/html5-fill (4).png" />
+                                <h3>HTML 5</h3>
+                                <P>
+                                    Crie seu site com um código limpo e organizado
+                                </P> 
+                                <a href="#contact">Começar &#8594</a>                       
+                        </div>        
+                        <div class="cards">                        
+                                <img src="./imagens/css3-fill.png" />
+                                <h3>CSS 3</h3>
+                                <P>
+                                    Personalize e dê uma identidade ao seu negócio
+                                </P> 
+                                <a href="#contact">Começar &#8594</a>                     
+                        </div>                        
+                        <div class="cards">
+                                <img src="./imagens/javascript-fill (1).png" />
+                                <h3>Javascript</h3>
+                                <P>
+                                    Interaja com clientes e dê vida a sua empresa 
+                                </P> 
+                                <a href="#contact">Começar &#8594</a>                        
+                        </div>                       
+                        <div class="cards">
+                                <img src="./imagens/bug-fill (1).png" />
+                                <h3>Correção de bugs</h3>
+                                <P>
+                                    Probelmas com o código? Deixe-me ajudar!
+                                </P> 
+                                <a href="#contact">Começar &#8594</a>                         
+                        </div>          
+                    </div>
+                </div>
+        </article>        
+    </section>
+    <section>
+        <article id="projects">
+            <h2>PROJETOS</h2>
+                <div class="container">                    
+                    <div class="git-hub">
+                        <img src="./imagens/github-fill.png" />                    
+                    <h3>Acompanhe meus trabalhos pelo <span>Git-Hub</span></h3>
+                    <P>
+                        Explore meus códigos no <span>Git-Hub</span> e mergulhe nos meus projetos front-end!
+                    </P>
+                    <a href="https://github.com/ArthWeber" title="Ir para Git-Hub.com"><button class="bttn_general">Git-hub.com</button></a>
+                    </div>                                                         
+                    <img class="dev_imagem" src="./imagens/websiteDesignerProjects.png"/>
+                </div>
+        </article>
+    </section>
+    <section>
+        <article id="contact">
+            <div class="container">
+                <div class="contac-me">
+                <h2>Contato</h2>    
+                    <form>
+                        <input type="text" placeholder="Digite seu nome" required />
+                        <input type="email" placeholder="Digite seu e-mail" required />
+                        <input type="tel" placeholder="Número para contato (opcional)" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"/>
+                        <textarea placeholder="Deixe sua mensagem" required></textarea>
+                        <button class="bttn_general" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="social-medias">
+                <h2>Minhas redes sociais</h2>
+                    <ul>
+                        <li>
+                            <a href="#" title="Siga-me no Instagram"><img src="./imagens/instagram-line.png"></a> 
+                        </li>
+                        <li>
+                            <a href="https://github.com/ArthWeber" title="Siga-me Git-Hub"><img src="./imagens/github-fill W.png"></a> 
+                        </li>
+                        <li>
+                            <a href="#" title="Conecte-se no Linkedin"><img src="./imagens/linkedin-line.png"></a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="zipcode">
+                <h2>WhatsApp</h2>
+                    <a href="#" title="Ir para WhatsApp"><img src="./imagens/whatsapp-line.png"></a>
+                    <a href="#" title="Ir para WhatsApp">(xx) 9xxxx-xxxx</a>                    
+                </div>                                
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                Desenvolvido por &copy; <a href="#apresentacao">Arthur Weber</a>. Todos os direitos reservados - 2024.
+            </p>
+        </div>        
+    </footer>
+</body>
+</html>
