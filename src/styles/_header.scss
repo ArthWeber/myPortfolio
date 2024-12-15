@@ -1,0 +1,35 @@
+@use 'vars';
+
+.header {
+    background-color: vars.$bgDark;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;    
+    padding: 18px;    
+    color: aliceblue;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+    }
+
+    &__logo {
+        border-bottom: 2px solid #fff;
+
+        span {
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 0.5px #fff;
+        }
+        
+    }
+
+    &__menu {
+        display: flex;        
+        
+        &__item {
+            margin-right: 36px;
+        }
+    }
+}

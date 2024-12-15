@@ -2,14 +2,14 @@ const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const imagemin = require('gulp-imagemin');
 
-function styles() {
+function styles() {    
     return gulp.src('./src/styles/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(sass({outputStyle: 'compressed'}))    
     .pipe(gulp.dest('./dist/css'));
 }
 
 function images() {
-    return gulp.src('./src/images/**/*', {encoding: false})
+    return gulp.src('./src/imagens/**/*', {encoding: false})
     .pipe(imagemin())
     .pipe(gulp.dest('./dist/img'));
 }

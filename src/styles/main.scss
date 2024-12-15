@@ -1,4 +1,5 @@
 @use 'vars';
+@use 'header';
 
 @mixin text($fontSize: 16px) {
     font-size: $fontSize;
@@ -15,10 +16,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: Amazon , sans-serif;
-}
-
-body {
-    background-color: aqua;
+    list-style: none;
 }
 
 .text--big {

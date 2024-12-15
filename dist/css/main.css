@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Amazon;
+  src: url("../../assets/fonts/Amazon Ember Light.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Amazon;
+  src: url("../../assets/fonts/Amazon Ember Light Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Amazon;
+  src: url("../../assets/fonts/Amazon Ember Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Amazon;
+  src: url("../../assets/fonts/Amazon Ember Bold Italic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+.header {
+  background-color: #0D0D0D;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  transition: 0.5s ease;
+  padding: 18px;
+  color: aliceblue;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  border-bottom: 2px solid #fff;
+}
+.header__logo span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+}
+.header__menu {
+  display: flex;
+}
+.header__menu__item {
+  margin-right: 36px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Amazon, sans-serif;
+  list-style: none;
+}
+
+.text--big {
+  font-size: 18px;
+  line-height: 28px;
+}
+@media (max-width: 768px) {
+  .text--big {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+}
+@media (max-width: 768px) {
+  .text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.text--small {
+  font-size: 12px;
+  line-height: 22px;
+}
+@media (max-width: 768px) {
+  .text--small {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.title--big {
+  font-size: 44px;
+  line-height: 54px;
+}
+@media (max-width: 768px) {
+  .title--big {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+.title {
+  font-size: 40px;
+  line-height: 50px;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.title--small {
+  font-size: 28px;
+  line-height: 38px;
+}
+@media (max-width: 768px) {
+  .title--small {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
