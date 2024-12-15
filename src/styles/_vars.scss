@@ -1,0 +1,29 @@
+@use 'main';
+
+//fontes
+
+@font-face {
+    font-family: Amazon;
+    src:url('../../assets/fonts/Amazon\ Ember\ Light.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Amazon;
+    src:url('../../assets/fonts/Amazon\ Ember\ Light\ Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Amazon;
+    src:url('../../assets/fonts/Amazon\ Ember\ Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Amazon;
+    src:url('../../assets/fonts/Amazon\ Ember\ Bold\ Italic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
